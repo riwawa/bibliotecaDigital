@@ -28,8 +28,7 @@ Este projeto integra diversos conceitos importantes:
 - ✔ Polimorfismo  
 - ✔ Classes abstratas  
 - ✔ Tratamento de exceções (`try/catch`)  
-- ✔ Interface gráfica com git remote add origin https://github.com/riwawa/bibliotecaDigital.git
- Swing  
+- ✔ Interface gráfica com Swing  
 - ✔ Conexão com banco de dados (JDBC + MySQL)  
 - ✔ Organização em pacotes  
 
