@@ -1,55 +1,35 @@
-# Markdown Cheat Sheet (Example File)
+# Biblioteca Digital
 
-This is a **generic Markdown template** showcasing essential formatting features.
-
----
-
-## 1. Headers
-# H1 (Largest)
-## H2
-### H3
-#### H4
-##### H5
-###### H6 (Smallest)
+Sistema desenvolvido em Java com Programação Orientada a Objetos (POO), interface gráfica com Swing e integração com banco de dados MySQL.
 
 ---
 
-## 2. Text Formatting
-- **Bold** (`**text**` or `__text__`)
-- *Italic* (`*text*` or `_text_`)
-- ~~Strikethrough~~ (`~~text~~`)
-- `Inline Code` (`` `code` ``)
-- > Blockquote (prefix with `>`)
+## Descrição do Projeto
 
----
+A **Biblioteca Digital** é uma aplicação que permite:
 
-## 3. Lists
-### Unordered List
-- Item 1
-- Item 2
-  - Nested Item (indent with 2 spaces)
+- cadastrar livros via interface gráfica  
+- realizar empréstimos para usuários  
+- validar regras de negócio (disponibilidade e dados)  
+- armazenar informações em banco de dados  
 
-### Ordered List
-1. First item
-2. Second item
-   1. Nested item (indent with 3 spaces)
+O projeto foi desenvolvido com foco na prática de conceitos fundamentais de POO e evolução para um sistema mais completo com persistência e interface.
 
-### Task List
-- [x] Completed task
-- [ ] Pending task (`[ ]`)
+----
 
----
+## Conceitos Aplicados
 
-## 4. Links
-- [Hyperlink](https://example.com) (`[text](url)`)
+Este projeto integra diversos conceitos importantes:
 
----
+- ✔ Programação Orientada a Objetos (POO)  
+- ✔ Encapsulamento  
+- ✔ Herança (`extends`)  
+- ✔ Interfaces (`implements`)  
+- ✔ Polimorfismo  
+- ✔ Classes abstratas  
+- ✔ Tratamento de exceções (`try/catch`)  
+- ✔ Interface gráfica com git remote add origin https://github.com/riwawa/bibliotecaDigital.git
+ Swing  
+- ✔ Conexão com banco de dados (JDBC + MySQL)  
+- ✔ Organização em pacotes  
 
-## 5. Code Blocks
-```java
-# Syntax-highlighted block (java)
-class HelloWorld {
-    public static main(String... args) {
-        System.out.println("Hello markdown");
-    }
-}
